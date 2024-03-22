@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="container">
+      <img src="" alt="" />
+      <div class="home">home</div>
+      <div class="search">search</div>
+      <div class="logout">logout</div>
+    </nav>
+    <!-- navbar end -->
+    <headerb>
+      <h1>Form <span>Belajar</span></h1>
+      <p>Latihan membuat form</p>
+    </header>
+    <main class="content" id="hero">
+      <div>
+        <form action="/my-handling-form-page" method="post">
+          <ul class="form-ul">
+            <ol>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </ol>
+            <ol>
+              <label for="date">Tanggal Lahir:</label>
+              <input type="date" id="date" />
+            </ol>
+            <ol>
+              <label for="jenis">Jenis Kelamin:</label>
+              <input type="checkbox" id="jenis" />Laki-Laki</input>
+              <input type="checkbox" id="jenis" />Perempuan</input>
+            </ol>
+            <ol>
+              <label for="pesan" class="pesan" id="class-text">Pesan:</label>
+              <textarea name="pesan" id="pesan"></textarea>
+            </ol>
+            <ol>
+              <button>Submit</button>
+            </ol>
+          </ul>
+        </form>
+      </div>
+
+      <div>
+        <table class="table_person">
+          <tr>
+            <th class="nama">Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>pesan</th>
+            <th>Profile</th>
+            <th>Hapus</th>
+          </tr>
+          <tr>
+            <td class="nama">Lallainte</td>
+            <td>26 Oktober 2006</td>
+            <td>Laki-Laki</td>
+            <td>Belajar Buat Website</td>
+            <td><a href="1">Klik Disini</a></td>
+            <td>
+              <img
+                src="../latihan revou/img/icon-trash.png"
+                alt="Hapus"
+                class="trash"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="nama">Lydia Marcelina</td>
+            <td>27 April 2002</td>
+            <td>Perempuan</td>
+            <td>The moon is beautiful isn't</td>
+            <td><a href="1">Klik Disini</a></td>
+            <td>
+              <img
+                src="../latihan revou/img/icon-trash.png"
+                alt="Hapus"
+                class="trash"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="nama">Zell</td>
+            <td>21 Oktober 2006</td>
+            <td>Laki-Laki</td>
+            <td>Belajar Buat Website</td>
+            <td><a href="1">Klik Disini</a></td>
+            <td>
+              <img
+                src="../latihan revou/img/icon-trash.png"
+                alt="Hapus"
+                class="trash"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
